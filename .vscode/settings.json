@@ -1,0 +1,24 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "pyproject.toml": "poetry.lock"
+  },
+  "files.exclude": {
+    "**/.venv/lib": true
+  },
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.exclude": ["**/cdk.out"],
+  "python.analysis.ignore": ["**/cdk.out"],
+  "python.analysis.typeCheckingMode": "standard",
+  "python.defaultInterpreterPath": ".venv/bin/python"
+}
